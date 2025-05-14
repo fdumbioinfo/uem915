@@ -11,7 +11,7 @@
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
 #' @importFrom ggpubr ggboxplot stat_compare_means
-#' @noRd
+#' @export
 boxplot1 <- function( dat, ylab = "y", xlab = "TREATMENT", log=T )
 {
   if(log){ dat[,1] %>% as.numeric %>% "^"(.,2) -> dat[,1] }

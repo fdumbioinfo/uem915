@@ -19,7 +19,7 @@
 #' @importFrom stats quantile
 #' @importFrom graphics boxplot legend
 #' @importFrom utils stack
-#' @noRd
+#' @export
 boxplot <- function(
   dat,
   factor,
