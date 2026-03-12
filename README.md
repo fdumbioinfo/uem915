@@ -24,7 +24,7 @@ library(uem915)
 uem915::env()
 #
 # working directory: dossier dans lequel les fichiers sont cr??s
-setwd("~/Desktop/IPSIT/enseignements/UEM915/2026/cours/rwd")
+setwd(".")
 #
 # les objets de donnees R
 #
